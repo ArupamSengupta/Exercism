@@ -22,7 +22,9 @@ DnaTranscriber.prototype.toRna = function(str){
 					throw new Error('Invalid input');
 			}
 		}
-		
+	
 		return str;
 	}
 }
+
+module.exports = DnaTranscriber;
